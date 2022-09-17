@@ -1,0 +1,46 @@
+
+body{
+    background-image:url("photo.jpg");
+    background-size: contain;
+}
+h1{
+    text-align: center;
+   font-size:60px;
+}
+h2{
+    font-size:30px;
+    position: relative;
+    bottom:25px;
+    text-align: center;
+}
+.container{
+    text-align: center;
+}
+.color{
+    height: 150px;
+    width: 150px;
+    margin:10px ;
+    border-radius:15px;
+    border-style: none;
+    box-shadow: 5px 5px 5px white,
+    -5px -5px 5px gray;
+    
+}
+#p{
+    background-color: #781C68;
+}
+#y{
+    background-color: yellow;
+}
+#b{
+    background-color: #3120E0;
+}
+#o{
+    background-color: #FF1E00;
+}
+.pressed{
+    background-color: aliceblue;
+   opacity:0.3;
+   border-color: black;
+   border-width: 10px;
+}
